@@ -1,8 +1,12 @@
 import axios from "axios";
 import { useAuthStore } from "../context/useAuthStore";
 
+const apiBaseURL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD ? "https://udb-ca.onrender.com/api" : "http://localhost:5000/api");
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api",
+  baseURL: apiBaseURL,
   timeout: 15000,
 });
 
