@@ -40,6 +40,18 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "Smart Inventory API is running",
+    health: "/api/health",
+  });
+});
+
+app.get("/health", (req, res) => {
+  res.json({ success: true, message: "Inventory API healthy" });
+});
+
 app.get("/api/health", (req, res) => {
   res.json({ success: true, message: "Inventory API healthy" });
 });
