@@ -1,6 +1,9 @@
 # Smart Inventory and Warehouse Management System
 
 Full-stack academic project for CSE12202 (Unstructured Database Lab), focused on MongoDB-first system design, CRUD workflows, aggregation reporting, and index-driven query performance.
+## 🎥 Demo Video
+
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Click%20Here-blue?style=for-the-badge)](https://drive.google.com/file/d/1xXOL-blNuD-Wq9wKdnIcJD-pjpBc_5hM/view?usp=drive_link)
 
 ## 1. Project Objective
 
